@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d4af96;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.balance-section,
+.transaction-section,
+.actions-section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.balance-section h2,
+.transaction-section h2,
+.actions-section h2 {
+    margin-top: 5;
+}
+
+#balance {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#transaction-list {
+    list-style: none;
+    padding: 0;
+}
+
+#transaction-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#transaction-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#transaction-type{
+    display: flex;
+}
+.link1{
+    display: flex;
+    justify-content: center ;
+    font-size: larger;
+}
+label {
+    margin-top: 10px;
+}
+.lbl{
+    display: flex;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+.link1 > a:nth-child(1) {
+    margin-right: 30vh;
+    color: forestgreen;
+    }
+
+.link1 > a:nth-child(2) {
+        color: indianred;
+     }
+ 
+#bal{
+	background-color:#E2D1F9;
+	 justify-content: center ;
+}
+#depo{
+	background-color:#80ff80;
+	
+}
+#with{
+	background-color:#db3315;
+	 
+}
+#tran{
+	background-color:#E2D1F9;
+	 justify-content: center ;
+}
